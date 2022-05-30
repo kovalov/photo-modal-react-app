@@ -1,0 +1,8 @@
+.myHeader {}
+
+.myHeaderTitle {
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: 600;
+	padding: 1rem 0;
+}

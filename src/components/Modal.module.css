@@ -1,0 +1,99 @@
+.myModal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+
+.myModalContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.myModalButton {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 4rem;
+	width: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border: 0;
+	background-color: transparent;
+	font-size: 3rem;
+	color: #fff;
+	padding: 0.5rem;
+}
+
+.myModalButtonIcon {
+	color: rgba(255,255,255, 0.5);
+}
+
+.myModalButton:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.myModalButton:hover .myModalButtonIcon {
+	color: rgba(255,255,255, 1);
+}
+
+.myModalSlides {
+	width: 1000px;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+	margin: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.myModalImage {
+	height: auto;
+	width: 100%;
+	transition: transform 300ms ease-in-out;
+}
+
+.myModalControls {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.myModalControlsButton {
+	padding: 1rem;
+	cursor: pointer;
+	border: 0;
+	font-size: 3rem;
+	background-color: transparent;
+}
+
+.myModalControlsButtonIcon {
+	color: rgba(255,255,255, 0.5)
+}
+
+.myModalControlsButton:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.myModalControlsButton:hover .myModalControlsButtonIcon {
+	color: rgba(255,255,255, 1)
+}
+
+
+
+.myModalOpened {
+	display: block;
+}
