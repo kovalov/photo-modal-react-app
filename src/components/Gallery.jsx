@@ -17,7 +17,7 @@ const Gallery = ({ images, setImageIndex, openModal }) => {
             <img
               className={styles.myGalleryImage}
               key={image.id}
-              {...image}
+              src={image.src}
               onClick={() => handleClick(image.id)}
             />
           ))}

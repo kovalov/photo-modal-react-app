@@ -16,11 +16,6 @@ function App() {
 
   const [isVisible, setVisible] = useState(false);
 
-  const add = (imageUrl) => {
-    addImage(imageUrl);
-    console.log(images);
-  };
-
   return (
     <div className=''>
       <MyHeader title='Gallery App' />
@@ -29,7 +24,7 @@ function App() {
         setImageIndex={setImageIndex}
         openModal={setVisible}
       />
-      <ImageUploader add={add} />
+      <ImageUploader add={addImage} />
       <Modal
         images={images}
         imageIndex={imageIndex}
