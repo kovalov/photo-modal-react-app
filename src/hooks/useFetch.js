@@ -35,7 +35,18 @@ const useFetch = (url, responseAdapter) => {
     };
   }, []);
 
-  return [data, setData];
+  const add = (url) => {
+    setData([
+      ...data,
+      {
+        url,
+        id: Date.now(),
+        alt: 'Image uploaded by user',
+      },
+    ]);
+  };
+
+  return [data, add];
 };
 
 export default useFetch;
