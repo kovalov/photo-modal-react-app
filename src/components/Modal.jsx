@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './Modal.module.css';
 import { FiX, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import MyIcon from './UI/icon/MyIcon';

@@ -39,7 +39,7 @@ const useFetch = (url, responseAdapter) => {
     setData([
       ...data,
       {
-        url,
+        src: url,
         id: Date.now(),
         alt: 'Image uploaded by user',
       },

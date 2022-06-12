@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { responseAdapter } from './utils/utils';
 import useFetch from './hooks/useFetch';
 import MyHeader from './components/UI/header/MyHeader';

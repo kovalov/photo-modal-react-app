@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './ImageUploader.module.css';
 import { FiPlus } from 'react-icons/fi';
 import MyIcon from './UI/icon/MyIcon';

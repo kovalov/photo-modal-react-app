@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './Gallery.module.css';
 import { getImageIndex } from '../utils/utils';
 import MyContainer from './UI/container/MyContainer';
